@@ -44,7 +44,7 @@ def create_directories(path_to_directories: list, verbose=True):
 
     Args:
         :path_to_directories (list): list of path of directories.
-        :verbose (bool, optional): ignore log if multiple dirs is to be created. Defaults to False.
+        :verbose (bool, optional): ignore log if multiple dirs is to be created.
 
     Returns:
         None
