@@ -238,3 +238,61 @@ Traceback (most recent call last):
   File "C:\Users\BA\anaconda3\lib\ntpath.py", line 185, in split
     p = os.fspath(p)
 TypeError: expected str, bytes or os.PathLike object, not ConfigBox
+[2024-03-19 15:45:36,891: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:45:36,891: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:45:36,900: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:45:36,900: ERROR: main: expected str, bytes or os.PathLike object, not ConfigBox]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 22, in __init__
+    create_directories([self.config, self.params])
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 55, in create_directories
+    os.makedirs(path, exist_ok=True)
+  File "C:\Users\BA\anaconda3\lib\os.py", line 208, in makedirs
+    head, tail = path.split(name)
+  File "C:\Users\BA\anaconda3\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not ConfigBox
+[2024-03-19 15:47:17,203: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:47:17,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:47:17,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:47:17,215: INFO: common: created directory at: artifacts]
+[2024-03-19 15:47:17,217: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-19 15:47:17,218: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 20, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 29, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-03-19 15:48:14,354: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:48:14,354: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:48:14,354: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:48:14,354: INFO: common: created directory at: artifacts]
+[2024-03-19 15:48:14,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-19 15:48:14,368: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 20, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 29, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-03-19 15:51:26,496: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:51:26,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:51:26,516: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:51:26,519: INFO: common: created directory at: artifacts]
+[2024-03-19 15:51:26,521: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-03-19 15:51:26,523: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-19 15:51:41,775: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-19 15:51:43,943: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
