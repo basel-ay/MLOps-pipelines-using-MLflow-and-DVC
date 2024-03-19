@@ -2,7 +2,7 @@ import os
 current_directory = os.getcwd()
 
 import sys
-sys.path.append(current_directory)
+sys.path.append("/MLOps-pipelines-using-MLflow-and-DVC/")
 
 import os
 import zipfile

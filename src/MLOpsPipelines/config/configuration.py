@@ -2,7 +2,7 @@ import os
 current_directory = os.getcwd()
 
 import sys
-sys.path.append(current_directory)
+sys.path.append("/MLOps-pipelines-using-MLflow-and-DVC/")
 
 from src.MLOpsPipelines.constants import *
 from src.MLOpsPipelines.utils.common import read_yaml, create_directories

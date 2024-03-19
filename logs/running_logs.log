@@ -23,3 +23,218 @@ Traceback (most recent call last):
   File "src\MLOpsPipelines\utils\common.py", line 39, in read_yaml
     raise ValueError("yaml file is empty")
 ValueError: yaml file is empty
+[2024-03-19 15:09:48,375: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:09:48,393: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:09:48,396: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:09:48,396: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 32, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-19 15:17:25,743: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:17:25,768: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:17:25,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:17:25,778: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 32, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-19 15:18:01,977: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:18:02,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:18:02,106: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:18:02,107: ERROR: main: First argument must be mapping or iterable]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 38, in read_yaml
+    raise e
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 32, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+[2024-03-19 15:23:23,492: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:23:23,492: ERROR: main: [Errno 2] No such file or directory: 'MLOps-pipelines-using-MLflow-and-DVC\\config\\config.yaml']
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 19, in __init__
+    self.config = read_yaml(config_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 38, in read_yaml
+    raise e
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'MLOps-pipelines-using-MLflow-and-DVC\\config\\config.yaml'
+[2024-03-19 15:24:02,775: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:24:02,775: ERROR: main: [Errno 2] No such file or directory: 'MLOps-pipelines-using-MLflow-and-DVC\\config\\config.yaml']
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 19, in __init__
+    self.config = read_yaml(config_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 38, in read_yaml
+    raise e
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'MLOps-pipelines-using-MLflow-and-DVC\\config\\config.yaml'
+[2024-03-19 15:24:32,270: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:24:32,270: ERROR: main: Argument path_to_yaml of type <class 'str'> to <function read_yaml at 0x00000289CAB28310> does not match annotation type <class 'pathlib.Path'>]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 19, in __init__
+    self.config = read_yaml(config_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 870, in __call__
+    raise EnsureError(msg.format(arg=arg, f=self.f, t=templ, valt=type(value)))
+ensure.main.EnsureError: Argument path_to_yaml of type <class 'str'> to <function read_yaml at 0x00000289CAB28310> does not match annotation type <class 'pathlib.Path'>
+[2024-03-19 15:25:32,322: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:25:32,325: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:25:32,328: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:25:32,329: ERROR: main: First argument must be mapping or iterable]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 38, in read_yaml
+    raise e
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 32, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+[2024-03-19 15:30:35,609: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:30:35,609: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:30:35,609: ERROR: main: Return value of <function read_yaml at 0x000001A1C5862040> of type <class 'box.box.Box'> does not match annotation type <class 'box.config_box.ConfigBox'>]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 19, in __init__
+    self.config = read_yaml(config_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 875, in __call__
+    raise EnsureError(msg.format(f=self.f, t=self.return_templ, valt=type(return_val)))
+ensure.main.EnsureError: Return value of <function read_yaml at 0x000001A1C5862040> of type <class 'box.box.Box'> does not match annotation type <class 'box.config_box.ConfigBox'>
+[2024-03-19 15:30:54,844: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:30:54,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:30:54,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:30:54,844: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 36, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-19 15:32:40,801: INFO: trials: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:32:58,461: INFO: trials: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:35:43,761: INFO: trials: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:36:25,080: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:36:25,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:36:25,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:36:25,080: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 291, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 20, in __init__
+    self.params = read_yaml(params_file_path)
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 36, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-19 15:42:45,168: INFO: trials: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:43:13,399: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-03-19 15:43:13,399: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-19 15:43:13,415: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-19 15:43:13,415: ERROR: main: expected str, bytes or os.PathLike object, not ConfigBox]
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 13, in <module>
+    obj.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_01_data_ingestion.py", line 19, in main
+    config = ConfigurationManager()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\config\configuration.py", line 22, in __init__
+    create_directories([self.config, self.params])
+  File "C:\Users\BA\anaconda3\lib\site-packages\ensure\main.py", line 835, in __call__
+    return self.f(*args, **kwargs)
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\utils\common.py", line 55, in create_directories
+    os.makedirs(path, exist_ok=True)
+  File "C:\Users\BA\anaconda3\lib\os.py", line 208, in makedirs
+    head, tail = path.split(name)
+  File "C:\Users\BA\anaconda3\lib\ntpath.py", line 185, in split
+    p = os.fspath(p)
+TypeError: expected str, bytes or os.PathLike object, not ConfigBox
