@@ -1,8 +1,12 @@
+import os
+current_directory = os.getcwd()
 
+import sys
+sys.path.append(current_directory)
 
-from MLOpsPipelines.config.configuration import ConfigurationManager
-from MLOpsPipelines.components.data_ingestion import DataIngestion
-from MLOpsPipelines import logger
+from src.MLOpsPipelines.config.configuration import ConfigurationManager
+from src.MLOpsPipelines.components.data_ingestion import DataIngestion
+from src.MLOpsPipelines import logger
 
 STAGE_NAME = "Data Ingestion stage"
 

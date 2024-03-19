@@ -1,9 +1,12 @@
-
-
 import os
-from MLOpsPipelines.constants import *
-from MLOpsPipelines.utils.common import read_yaml, create_directories
-from MLOpsPipelines.entity.config_entity import DataIngestionConfig
+current_directory = os.getcwd()
+
+import sys
+sys.path.append(current_directory)
+
+from src.MLOpsPipelines.constants import *
+from src.MLOpsPipelines.utils.common import read_yaml, create_directories
+from src.MLOpsPipelines.entity.config_entity import DataIngestionConfig
 
 
 class ConfigurationManager:

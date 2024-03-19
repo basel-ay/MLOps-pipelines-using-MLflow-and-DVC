@@ -1,11 +1,15 @@
+import os
+current_directory = os.getcwd()
 
+import sys
+sys.path.append(current_directory)
 
 import os
 import zipfile
 import gdown
-from MLOpsPipelines import logger
-from MLOpsPipelines.utils.common import get_size
-from MLOpsPipelines.entity.config_entity import DataIngestionConfig
+from src.MLOpsPipelines import logger
+from src.MLOpsPipelines.utils.common import get_size
+from src.MLOpsPipelines.entity.config_entity import DataIngestionConfig
 
 
 class DataIngestion:
