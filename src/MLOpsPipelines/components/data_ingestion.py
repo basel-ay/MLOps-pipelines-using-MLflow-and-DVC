@@ -22,7 +22,7 @@ class DataIngestion:
         """
 
         try:
-            dataset_url = self.config.source_URL
+            dataset_url = self.config.source_url
             zip_download_dir = self.config.local_data_file
             os.makedirs("artifacts/data_ingestion", exist_ok=True)
             logger.info(
