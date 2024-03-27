@@ -296,3 +296,13 @@ TypeError: __init__() got an unexpected keyword argument 'source_URL'
 [2024-03-19 15:51:43,943: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-03-27 05:33:50,786: INFO: main: *******************]
+[2024-03-27 05:33:50,817: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-03-27 05:33:50,832: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-03-27 05:33:50,840: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-03-27 05:33:50,843: INFO: common: created directory at: artifacts]
+[2024-03-27 05:33:50,844: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-03-27 05:33:51,989: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-03-27 05:33:53,407: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
