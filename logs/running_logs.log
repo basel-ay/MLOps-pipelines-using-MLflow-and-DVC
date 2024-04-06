@@ -306,3 +306,101 @@ x==========x]
 [2024-03-27 05:33:53,407: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2024-04-06 05:50:18,801: INFO: main: *******************]
+[2024-04-06 05:50:18,835: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 05:50:18,889: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 05:50:18,895: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 05:50:18,898: INFO: common: created directory at: artifacts]
+[2024-04-06 05:50:18,899: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-06 05:50:20,032: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 05:50:22,940: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-06 05:50:22,942: INFO: main: *******************]
+[2024-04-06 05:50:22,944: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-06 05:50:22,951: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 05:50:22,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 05:50:22,960: INFO: common: created directory at: artifacts]
+[2024-04-06 05:50:22,962: INFO: common: created directory at: artifacts\training]
+[2024-04-06 05:52:18,503: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-06 05:52:18,512: INFO: main: *******************]
+[2024-04-06 05:52:18,513: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 05:52:18,527: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 05:52:18,536: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 05:52:18,541: INFO: common: created directory at: artifacts]
+[2024-04-06 05:52:49,198: INFO: common: json file saved at: scores.json]
+[2024-04-06 05:52:49,203: INFO: common: json file saved at: scores.json]
+[2024-04-06 05:52:49,204: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-06 06:01:25,587: INFO: main: *******************]
+[2024-04-06 06:01:25,588: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 06:01:25,598: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:01:25,603: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:01:25,604: INFO: common: created directory at: artifacts]
+[2024-04-06 06:01:25,606: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-06 06:01:26,848: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 06:01:30,434: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-06 06:01:30,436: INFO: main: *******************]
+[2024-04-06 06:01:30,436: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-06 06:01:30,446: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:01:30,453: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:01:30,455: INFO: common: created directory at: artifacts]
+[2024-04-06 06:01:30,456: INFO: common: created directory at: artifacts\training]
+[2024-04-06 06:03:13,937: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-06 06:03:13,938: INFO: main: *******************]
+[2024-04-06 06:03:13,939: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 06:03:13,945: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:03:13,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:03:13,953: INFO: common: created directory at: artifacts]
+[2024-04-06 06:03:49,281: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:03:49,283: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:03:49,284: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-06 06:09:17,315: INFO: main: *******************]
+[2024-04-06 06:09:17,315: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 06:09:17,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:09:17,336: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:09:17,337: INFO: common: created directory at: artifacts]
+[2024-04-06 06:09:50,305: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:09:50,307: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:09:50,308: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-06 06:13:23,278: INFO: main: *******************]
+[2024-04-06 06:13:23,278: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 06:13:23,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:13:23,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:13:23,289: INFO: common: created directory at: artifacts]
+[2024-04-06 06:13:54,398: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:13:54,462: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:13:54,470: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-06 06:19:09,805: INFO: main: *******************]
+[2024-04-06 06:19:09,816: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 06:19:09,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:19:09,827: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:19:09,829: INFO: common: created directory at: artifacts]
+[2024-04-06 06:19:47,227: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:19:47,233: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:19:47,234: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-06 06:21:48,435: INFO: main: *******************]
+[2024-04-06 06:21:48,436: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 06:21:48,551: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 06:21:48,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 06:21:48,566: INFO: common: created directory at: artifacts]
+[2024-04-06 06:22:24,217: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:22:24,219: INFO: common: json file saved at: scores.json]
+[2024-04-06 06:22:24,220: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
