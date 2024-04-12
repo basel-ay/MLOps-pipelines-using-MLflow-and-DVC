@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/mlruns/0/19f2c0bdf7f74e68b0e11900d36ecc69/artifacts
+end_time: 1712951505298
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19f2c0bdf7f74e68b0e11900d36ecc69
+run_name: nosy-eel-862
+run_uuid: 19f2c0bdf7f74e68b0e11900d36ecc69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712951469533
+status: 3
+tags: []
+user_id: BA

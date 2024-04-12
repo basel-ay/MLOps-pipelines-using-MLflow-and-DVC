@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/mlruns/0/aa0dd76154444c71a41eeb4a50d3470f/artifacts
+end_time: 1712942557780
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa0dd76154444c71a41eeb4a50d3470f
+run_name: mercurial-wolf-362
+run_uuid: aa0dd76154444c71a41eeb4a50d3470f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712942499894
+status: 3
+tags: []
+user_id: BA

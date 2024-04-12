@@ -1,0 +1,31 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.8.18
+- pip<=23.3.1
+- pip:
+  - mlflow<3,>=2.3
+  - bcrypt==3.2.0
+  - boto3==1.28.11
+  - defusedxml==0.7.1
+  - dill==0.3.4
+  - fsspec==2023.10.0
+  - google-cloud-storage==2.10.0
+  - google-generativeai==0.1.0rc1
+  - lz4==4.3.2
+  - numpy==1.23.0
+  - packaging==23.2
+  - pandas==1.2.3
+  - pillow==10.2.0
+  - protobuf==3.20.3
+  - pydot==1.4.2
+  - pyopenssl==20.0.1
+  - requests==2.29.0
+  - scipy==1.10.1
+  - tblib==1.7.0
+  - tensorflow-gpu==2.8.0
+  - tensorflow-intel==2.11.0
+  - tensorflow==2.11.0
+  - tf-nightly==2.9.0.dev20220202
+  - zstandard==0.19.0
+name: mlflow-env

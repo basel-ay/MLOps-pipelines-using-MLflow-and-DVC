@@ -404,3 +404,69 @@ x==========x]
 [2024-04-06 06:22:24,220: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-04-12 19:20:56,483: INFO: main: *******************]
+[2024-04-12 19:20:56,499: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-12 19:20:56,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-12 19:20:56,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-12 19:20:56,530: INFO: common: created directory at: artifacts]
+[2024-04-12 19:21:34,366: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:21:34,507: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:21:46,609: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-12 19:21:49,525: INFO: builder_impl: Assets written to: C:\Users\BA\AppData\Local\Temp\tmp2wwif2or\model\data\model\assets]
+[2024-04-12 19:22:37,780: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-12 19:24:09,099: INFO: main: *******************]
+[2024-04-12 19:24:09,099: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-12 19:24:09,114: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-12 19:24:09,122: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-12 19:24:09,124: INFO: common: created directory at: artifacts]
+[2024-04-12 19:24:35,404: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:24:35,412: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:24:39,875: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-12 19:24:41,145: INFO: builder_impl: Assets written to: C:\Users\BA\AppData\Local\Temp\tmp8fgkudan\model\data\model\assets]
+[2024-04-12 19:25:27,591: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-12 19:30:36,345: INFO: main: *******************]
+[2024-04-12 19:30:36,345: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-12 19:30:36,345: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-12 19:30:36,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-12 19:30:36,361: INFO: common: created directory at: artifacts]
+[2024-04-12 19:31:02,500: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:31:02,502: INFO: common: json file saved at: scores.json]
+[2024-04-12 19:31:03,918: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 404 != 200. Response body: '']
+Traceback (most recent call last):
+  File "d:/BSL/AI/Projects/MLOps-pipelines-using-MLflow-and-DVC/main.py", line 56, in <module>
+    model_evalution.main()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\pipeline\stage_04_model_evaluation.py", line 23, in main
+    evaluation.log_into_mlflow()
+  File "d:\BSL\AI\Projects\MLOps-pipelines-using-MLflow-and-DVC\src\MLOpsPipelines\components\model_evaluation_mlflow.py", line 57, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\tracking\fluent.py", line 351, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\tracking\client.py", line 280, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 303, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\BA\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 233, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 404 != 200. Response body: ''
+[2024-04-12 21:50:38,028: INFO: main: *******************]
+[2024-04-12 21:50:38,029: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-12 21:50:38,033: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-12 21:50:38,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-12 21:50:38,042: INFO: common: created directory at: artifacts]
+[2024-04-12 21:51:08,308: INFO: common: json file saved at: scores.json]
+[2024-04-12 21:51:08,314: INFO: common: json file saved at: scores.json]
+[2024-04-12 21:51:13,167: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-12 21:51:14,433: INFO: builder_impl: Assets written to: C:\Users\BA\AppData\Local\Temp\tmph4l2d3up\model\data\model\assets]
+[2024-04-12 21:51:45,298: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
